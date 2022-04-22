@@ -10,18 +10,23 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
-	text-align: center;
 	background-color: black;
 	color: #f9f9f9;
 }
 
 .container {
 	border: 2px solid #ca1801;
-	width: 80%;
+	width: 85%;
 	max-width: 700px;
 
 	margin: 5rem auto;
 	padding: 1rem 1.2rem;
+}
+
+.header_Container,
+.download_Container,
+.footer {
+	text-align: center;
 }
 
 .img_Container,
@@ -34,12 +39,22 @@ body {
 }
 
 .menu_Link {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
 
 	padding: 0.4rem 0.5rem;
 	background-color: #e8c66e;
 	color: white;
+	border-radius: 10px;
+}
+.menu_Header {
+	font-size: 14px;
+	font-weight: 600;
+
+	padding: 0.4rem 0.5rem;
+	width: 30%;
+	color: #e8c66e;
+	border: 1px solid #e8c66e;
 	border-radius: 10px;
 }
 
