@@ -19,7 +19,7 @@ body {
 	width: 85%;
 	max-width: 700px;
 
-	margin: 5rem auto;
+	margin: 4rem auto;
 	padding: 1rem 1.2rem;
 }
 
@@ -45,16 +45,6 @@ body {
 	padding: 0.4rem 0.5rem;
 	background-color: #e8c66e;
 	color: white;
-	border-radius: 10px;
-}
-.menu_Header {
-	font-size: 14px;
-	font-weight: 600;
-
-	padding: 0.4rem 0.5rem;
-	width: 30%;
-	color: #e8c66e;
-	border: 1px solid #e8c66e;
 	border-radius: 10px;
 }
 
