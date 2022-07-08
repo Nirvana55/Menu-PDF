@@ -14,13 +14,22 @@ body {
 	color: #f9f9f9;
 }
 
+img {
+	width: 100%;
+}
+
 .container {
-	border: 2px solid #ca1801;
+	border: 2px solid #ecb530;
 	width: 85%;
-	max-width: 700px;
+	max-width: 800px;
 
 	margin: 4rem auto;
-	padding: 1rem 1.2rem;
+	padding: 1rem 2rem;
+	border-radius: 10px;
+}
+
+.logo_Img {
+	margin-right: 2rem;
 }
 
 .header_Container,
@@ -36,6 +45,7 @@ body {
 
 .menu_img {
 	width: 100%;
+	margin-top: 1rem;
 }
 
 .menu_Link {
@@ -54,4 +64,10 @@ body {
 
 .footer p {
 	font-size: 12px;
+}
+
+@media (max-width: 750px) {
+	.container {
+		padding: 1rem 1.2rem;
+	}
 }
